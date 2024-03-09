@@ -25,12 +25,21 @@ html {
   font-size: 50px;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  /* количество строк, после которых будет добавлено многоточие */
+  -webkit-box-orient: vertical;
+  /* нужно для Safari */
+  
 }
 
 #counter-number {
   font-size: 40px;
   overflow: hidden;
   text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  /* количество строк, после которых будет добавлено многоточие */
+  -webkit-box-orient: vertical;
+  /* нужно для Safari */
 }
 
 .btns {
