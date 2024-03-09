@@ -48,14 +48,13 @@
 @media (max-width: 460px) {
   .btns {
     display: flex;
-    flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
   }
 
   #reset {
     order: 3;
-    margin-top: 10px; /* Добавлен отступ сверху для кнопки "Сбросить" */
   }
 
   #user-start,
