@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#counter-text {
+  font-size: 50px;
+}
+
+#counter-number {
+  font-size: 40px;
+}
+
+.btns {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.btns-btn {
+  margin: 5px;
+  font-size: 22px;
+  padding: 15px 50px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.btns-btn:hover {
+  background-color: #555;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 460px) {
+  .btns {
+    display: flex;
+    flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+    justify-content: center;
+    align-items: center;
+  }
+
+  #reset {
+    order: 3;
+    margin-top: 10px; /* Добавлен отступ сверху для кнопки "Сбросить" */
+  }
+
+  #user-start,
+  #counter-name{
+    padding: 15px 20px;
+  }
+}
