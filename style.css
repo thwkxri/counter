@@ -57,6 +57,7 @@ html {
   border: none;
   cursor: pointer;
   border-radius: 40px;
+  transition: background-color 0.3s ease;
 }
 
 .btns-btn:hover {
