@@ -38,6 +38,6 @@ userNum.addEventListener('click', function createUserNum(){
 });
 
 changeName.addEventListener('click', function changeName(){
-  nameValue = prompt('Введите нзвание счётчика: ');
+  nameValue = prompt('Введите название счётчика: ');
   counterName.innerText = nameValue;
 });
